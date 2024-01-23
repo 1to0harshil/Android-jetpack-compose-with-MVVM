@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.InterK9Compose" parent="android:Theme.Material.Light.NoActionBar" />
+    <style name="Theme.SplashTheme" parent="android:Theme.Material.Light.NoActionBar" >
+        <item name="android:windowBackground">@drawable/splash_background</item>
+        <item name="android:statusBarColor" >#00A7FF</item>
+    </style>
+</resources>
