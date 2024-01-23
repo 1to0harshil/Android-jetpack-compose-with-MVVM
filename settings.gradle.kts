@@ -13,6 +13,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "InterK9Compose"
+rootProject.name = "ComposeWithMVVM"
 include(":app")
  

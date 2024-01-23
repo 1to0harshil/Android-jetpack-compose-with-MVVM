@@ -1,4 +1,4 @@
 <resources>
-    <string name="app_name">InterK9Compose</string>
+    <string name="app_name">ComposeWithMVVM</string>
     <string name="title_activity_splash">SplashActivity</string>
 </resources>

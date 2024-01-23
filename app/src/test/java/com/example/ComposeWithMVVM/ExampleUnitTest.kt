@@ -1,4 +1,4 @@
-package com.example.interk9compose
+package com.example.ComposeWithMVVM
 
 import org.junit.Test
 

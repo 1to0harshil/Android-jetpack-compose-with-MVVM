@@ -1,4 +1,4 @@
-package com.example.interk9compose
+package com.example.ComposeWithMVVM
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

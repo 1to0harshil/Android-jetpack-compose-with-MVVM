@@ -1,4 +1,4 @@
-package com.example.interk9compose.repository
+package com.example.ComposeWithMVVM.repository
 
 sealed class Response<T>(val data : T? = null, val errorMessage: String? = null) {
 

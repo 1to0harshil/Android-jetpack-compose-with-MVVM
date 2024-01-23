@@ -1,13 +1,13 @@
-package com.example.interk9compose.viewmodel
+package com.example.ComposeWithMVVM.viewmodel
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.interk9compose.repository.Repository
-import com.example.interk9compose.dataClasses.Login
-import com.example.interk9compose.dataClasses.LoginReq
-import com.example.interk9compose.model.ResponseModel
+import com.example.ComposeWithMVVM.repository.Repository
+import com.example.ComposeWithMVVM.dataClasses.Login
+import com.example.ComposeWithMVVM.dataClasses.LoginReq
+import com.example.ComposeWithMVVM.model.ResponseModel
 import kotlinx.coroutines.launch
 
 

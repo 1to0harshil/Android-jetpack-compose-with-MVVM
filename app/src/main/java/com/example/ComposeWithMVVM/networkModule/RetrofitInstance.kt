@@ -1,6 +1,6 @@
-package com.example.interk9compose.networkModule
+package com.example.ComposeWithMVVM.networkModule
 
-import com.example.interk9compose.interfaces.ProjectServices
+import com.example.ComposeWithMVVM.interfaces.ProjectServices
 import okhttp3.ConnectionSpec
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor

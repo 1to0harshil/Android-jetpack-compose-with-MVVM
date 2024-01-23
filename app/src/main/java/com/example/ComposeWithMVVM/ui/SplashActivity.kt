@@ -1,4 +1,4 @@
-package com.example.interk9compose.ui
+package com.example.ComposeWithMVVM.ui
 
 import Component.ActionBar
 import Component.PrimaryButton
@@ -7,7 +7,6 @@ import Component.showToast
 import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
@@ -49,9 +48,9 @@ import androidx.compose.ui.text.input.PasswordVisualTransformation
 import androidx.compose.ui.text.input.TextFieldValue
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
-import com.example.interk9compose.R
-import com.example.interk9compose.dataClasses.LoginReq
-import com.example.interk9compose.viewmodel.LoginViewModel
+import com.example.ComposeWithMVVM.R
+import com.example.ComposeWithMVVM.dataClasses.LoginReq
+import com.example.ComposeWithMVVM.viewmodel.LoginViewModel
 import kotlinx.coroutines.delay
 
 @SuppressLint("CustomSplashScreen")

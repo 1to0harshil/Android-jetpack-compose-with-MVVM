@@ -1,8 +1,8 @@
-package com.example.interk9compose.interfaces
+package com.example.ComposeWithMVVM.interfaces
 
-import com.example.interk9compose.dataClasses.Login
-import com.example.interk9compose.dataClasses.LoginReq
-import com.example.interk9compose.model.ResponseModel
+import com.example.ComposeWithMVVM.dataClasses.Login
+import com.example.ComposeWithMVVM.dataClasses.LoginReq
+import com.example.ComposeWithMVVM.model.ResponseModel
 import retrofit2.Response
 import retrofit2.http.Body
 import retrofit2.http.POST

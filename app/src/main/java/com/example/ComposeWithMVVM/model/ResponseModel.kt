@@ -1,4 +1,4 @@
-package com.example.interk9compose.model
+package com.example.ComposeWithMVVM.model
 
 import com.google.gson.annotations.SerializedName
 

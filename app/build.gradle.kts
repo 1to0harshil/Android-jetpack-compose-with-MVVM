@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.interk9compose"
+    namespace = "com.example.ComposeWithMVVM"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.interk9compose"
+        applicationId = "com.example.ComposeWithMVVM"
         minSdk = 29
         targetSdk = 34
         versionCode = 1

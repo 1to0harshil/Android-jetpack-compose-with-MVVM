@@ -1,4 +1,4 @@
-package com.example.interk9compose.ui.theme
+package com.example.ComposeWithMVVM.ui.theme
 
 import androidx.compose.ui.graphics.Color
 
