@@ -1,9 +1,9 @@
 package com.example.ComposeWithMVVM.ui
 
-import Component.ActionBar
-import Component.PrimaryButton
-import Component.SpacerDp
-import Component.showToast
+import com.example.ComposeWithMVVM.Component.ActionBar
+import com.example.ComposeWithMVVM.Component.PrimaryButton
+import com.example.ComposeWithMVVM.Component.SpacerDp
+import com.example.ComposeWithMVVM.Component.showToast
 import android.annotation.SuppressLint
 import android.content.Context
 import android.os.Bundle
@@ -51,8 +51,10 @@ import androidx.compose.ui.unit.dp
 import com.example.ComposeWithMVVM.R
 import com.example.ComposeWithMVVM.dataClasses.LoginReq
 import com.example.ComposeWithMVVM.viewmodel.LoginViewModel
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
 
+@AndroidEntryPoint
 @SuppressLint("CustomSplashScreen")
 class SplashActivity() : ComponentActivity() {
     private lateinit var c: Context

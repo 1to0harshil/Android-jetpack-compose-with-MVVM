@@ -1,4 +1,4 @@
-package Component
+package com.example.ComposeWithMVVM.Component
 
 import android.content.Context
 import android.widget.Toast

@@ -8,11 +8,13 @@ import com.example.ComposeWithMVVM.repository.Repository
 import com.example.ComposeWithMVVM.dataClasses.Login
 import com.example.ComposeWithMVVM.dataClasses.LoginReq
 import com.example.ComposeWithMVVM.model.ResponseModel
+import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.launch
+import javax.inject.Inject
 
+@HiltViewModel
+class LoginViewModel @Inject constructor(private val repository: Repository) : ViewModel() {
 
-class LoginViewModel : ViewModel() {
-    private val repository = Repository()
 
     private val _login = MutableLiveData<ResponseModel<Login>>()
     val login: LiveData<ResponseModel<Login>> = _login
